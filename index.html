@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#home">Logo da empresa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#localizacao">Localização</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--section Home-->
+    <section id="home" class="d-flex">
+        <div class="container-fluid text-center">
+            <div class="card bg-light text-dark">
+                <img class="card-img" src="https://i.pinimg.com/736x/cc/7a/b6/cc7ab69ab9c6f60476c01d3b30727049.jpg">
+                  <h5 class="card-title">CRUMBL COOKIES</h5>
+                  <p class="card-text">Os sabores mais autênticos que você pode provar!</p>
+                  <a href="#sobre" class="btn btn-primary scroll-btn">Sobre a empresa</a>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <!--section Sobre-->
+    <section id="sobre" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Sobre a empresa</h1>
+            <p>A Crumbl foi fundada pelos primos Sawyer Hemsley e Jason McGowan em 2017, enquanto Hemsley frequentava a Universidade Estadual de Utah em Logan,<br>
+                 Utah. Hemsley e McGowan utilizaram métodos de teste A/B para chegar à receita final de biscoito de chocolate ao leite.<br>
+                 A Crumbl Cookies é uma cadeias de franquias de padarias nos Estados Unidos e no Canadá, especializada em cookies. Com sede em Utah, foi fundada em 2017.<br>
+                 A cadeia mantém uma forte presença nas mídias sociais, o que levou o The New York Times a atribuir o crescimento da empresa.</p>
+            <a href="#contato" class="btn btn-success scroll-btn">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!--section Contato-->
+    <section id="contato" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Fale Conosco</h1>
+            <p>Formulário aqui</p>
+            <a href="#localizacao" class="btn btn-danger scroll-btn">Localização</a>
+        </div>
+    </section>
+
+    <!--section Localização-->
+    <section id="localizacao" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Localização</h1>
+            <p>Mapa aqui</p>
+            <a href="#home" class="btn btn-danger scroll-btn">Página Inicial</a>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
