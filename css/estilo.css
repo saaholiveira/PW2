@@ -50,3 +50,19 @@ nav.scrolled {
 #sobre {
     background-color: #ffaaf8;
 }
+
+#contato {
+    background-color: #feb9cc;
+}
+
+#integrante img {
+        max-width:300px;
+        max-height:300px;
+        width: auto;
+        height: auto;
+    
+}
+
+#integrante {
+    background-color: #feb9cc;
+}
